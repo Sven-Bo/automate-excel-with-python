@@ -6,7 +6,7 @@ There’s a lot of pain points in Excel that make it a tool that’s cumbersome 
 
 ## Video Tutorial
 
-[![YouTube Video](https://img.youtube.com/vi/TYTPThKKHOQ/0.jpg)](https://youtu.be/TYTPThKKHOQ)
+[![YouTube Video](https://img.youtube.com/vi/JoonRjMsSdY/0.jpg)](https://youtu.be/JoonRjMsSdY)
 
 
 ## Author
