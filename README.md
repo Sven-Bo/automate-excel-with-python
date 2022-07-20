@@ -5,19 +5,26 @@ There’s a lot of pain points in Excel that make it a tool that’s cumbersome 
 
 
 ## Video Tutorial
-
 [![YouTube Video](https://img.youtube.com/vi/JoonRjMsSdY/0.jpg)](https://youtu.be/JoonRjMsSdY)
 
+## Changes after releasing the video
+**Please note**<br/>
+With pandas version 1.4.0 DataFrame.append() and Series.append() have been deprecated and will be removed in a future version.<br/>
+Hence, I have changed the code as follows to merge all Excel files into one DataFrame:
+```diff
+- df = df.append(pd.read_excel(file), ignore_index=True)
+
++ df_tmp = pd.read_excel(file)
++ df = pd.concat([df, df_tmp], ignore_index=True)
+```
 
 ## Author
-
 - Sven from Coding Is Fun
 - YouTube: https://youtube.com/c/CodingIsFun
 - Website: https://pythonandvba.com
 
 
 ## Feedback
-
 If you have any feedback, please reach out to me at contact@pythonandvba.com
 
 
